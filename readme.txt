@@ -1,6 +1,11 @@
 Setup Instructions
-    
-    Install all dependencies.
+    Install all listed dependencies.
+
+    pip install fastapi
+    pip install sqlalchemy
+    pip install grpcio
+    pip install grpcio-tools
+    pip install uvicorn
 
 Run the application:
 
@@ -49,7 +54,7 @@ gRPC Export API
 
     To use the Export API:
 
-    Open a gRPC tool like Postman (gRPC mode) or BloomRPC.
+    Open a gRPC tool like Postman (gRPC mode).
 
     Connect to localhost:50051.
 
