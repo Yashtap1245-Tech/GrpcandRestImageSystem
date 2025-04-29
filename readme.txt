@@ -22,6 +22,8 @@ Access the application:
 
 REST API Endpoints
 
+Can be seen at using swagger http://localhost:8000/docs
+
 List all images
     GET http://127.0.0.1:8000/images
     Retrieves all images stored in the database.
@@ -65,3 +67,7 @@ gRPC Export API
     { "tag": "fun", "author": "Yash" }
 
     If no filters are provided, the server will stream all images.
+
+For testing make sure Server is up and then run command
+
+python client.py
